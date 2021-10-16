@@ -1,0 +1,20 @@
+footer {
+  background: var(--colour-black);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer > div p {
+  font-size: 1rem;
+  cursor: pointer;
+}
